@@ -1,0 +1,23 @@
+div {
+    background-color: red;
+    text-align: left;
+    color: yellow;
+    margin: 5px;
+    width: 170px;
+    height: 180px;
+}
+
+#contenedor {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    width: 750px;
+    height: 200px;
+}
+
+#dos {
+    background-color: black;
+    color: white;
+}
