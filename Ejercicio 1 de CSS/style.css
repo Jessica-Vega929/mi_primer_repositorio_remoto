@@ -1,0 +1,44 @@
+.body {
+    background-color:royalblue;
+    background-size: 1800px;
+    background-attachment: fixed;
+}/*Agrego color de fondo, el tamaño, y el tipo de fijación de la imagen (en este caso fijo) en el cuerpo de la página*/
+#imagen1 {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 45rem;
+}/*Ambas imagenes tienen el mismo tamaño y margen izquierdo*/
+p > span {
+    font-size: 20px;
+    font-style: normal;
+}/*Los span que estén dentro de p, tienen el tamaño de 20 pixeles y con estilo normal*/
+p {
+    width: 90rem;
+    margin-left: 4rem;
+    text-align: center;
+    background-color: black;
+}/*Para los p en general, tienen un ancho determinado, un margen a la izquierda para alinearlos al centro de la pantalla, un alineado central con relación al contenedor y la fuente de color negro*/
+#parrafo1, #parrafo2 {
+    color: white;
+}/*Para los ID #parrafo 1 y 2, las letras serán de color blanco*/
+#caja1 > a{
+    border: 0.2rem;
+    border-style: solid;
+    border-color: rgb(66, 75, 85);
+    padding: 0.5rem;
+    background-color: slategray;
+    text-decoration: none;
+}/*Para los A que estén dentro del ID #caja1, les agregué tamaño, estilo y color al borde, después tienen un tamaño de espaciado con relación al borde y el color de fondo*/
+#caja1 {
+    margin-top: 1rem;
+    margin-left: 78rem;
+}/*Para el ID #caja1 en general, les coloqué el tamaño de los margenes de arriba y de la izquierda*/
+.footer > p{
+    height: 2rem;
+    font-size: 1.7rem;
+    margin-top: 3rem;
+    background-color: dimgray;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(53, 52, 52);
+}/*Y por último utilicé un footer para hacer el pie de la página web*/
